@@ -323,7 +323,7 @@ spec:
 $ oc apply -f 04_create_clo_client_cr.yaml
 ```
 
-### Create Cluster Log Forwarder Custom Resource
+### Create Cluster Log Forwarder Custom Resource   ( TAKE THE SECRET FROM THE COLLECTOR FROM THE HUB)
 - Create Collector Secret to communicate Elasticsearch External Endpoint 
 05_create_client_collector_secret.yaml:  
 ```yaml
